@@ -15,7 +15,6 @@ import { priceLists } from "./price-lists"
 import { productTypes } from "./product-types"
 import { products } from "./products"
 import { promotions } from "./promotions"
-import { regions } from "./regions"
 import { reservations } from "./reservations"
 import { salesChannels } from "./sales-channels"
 import { shippingOptions } from "./shipping-options"
@@ -44,7 +43,6 @@ export const client = {
   tags: tags,
   users: users,
   orders: orders,
-  regions: regions,
   taxes: taxes,
   invites: invites,
   inventoryItems: inventoryItems,

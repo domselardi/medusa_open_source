@@ -27,7 +27,7 @@ export const useOrderTableFilters = (): Filter[] => {
       label: t("fields.region"),
       type: "select",
       options: regions.map((r) => ({
-        label: r.name,
+        label: r.name ?? r.id ?? "",
         value: r.id,
       })),
       multiple: true,

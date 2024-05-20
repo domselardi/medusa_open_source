@@ -18,7 +18,6 @@ import {
   ProductTypeDTO,
   ProductVariantDTO,
   PromotionDTO,
-  RegionDTO,
   SalesChannelDTO,
   ShippingOptionDTO,
   ShippingProfileDTO,
@@ -67,11 +66,6 @@ export type ExtendedStoreDTO = StoreDTO & {
 
 export type StoreRes = { store: ExtendedStoreDTO }
 export type StoreListRes = { stores: ExtendedStoreDTO[] } & ListRes
-
-// Regions
-export type RegionRes = { region: RegionDTO }
-export type RegionListRes = { regions: RegionDTO[] } & ListRes
-export type RegionDeleteRes = DeleteRes
 
 // Reservations
 export type ReservationRes = { reservation: InventoryNext.ReservationItemDTO }
